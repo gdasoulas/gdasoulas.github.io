@@ -82,13 +82,16 @@ analytics:
 author:
   name             : "George Dasoulas"
   avatar           : "personal.jpg"
-  bio              : "Machine Learning on Graphs.\n PhD Candidate @ École polytechnique, Paris. \n Doctoral Researcher @ Noah's Ark Lab, Huawei France."
+  bio              : >
+                    "Machine Learning on Graphs.
+                     PhD Student @ École polytechnique.
+                     Doctoral Researcher @ Noah's Ark Lab, Huawei France."
   location         : "Paris, France"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=WPFAXNAAAAAJ"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/George_Dasoulas"
   uri              :
   bitbucket        :
   codepen          :
@@ -102,14 +105,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/george-dasoulas-23369786"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/GDasoulas"
   vine             :
   weibo            :
   xing             :
