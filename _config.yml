@@ -82,7 +82,9 @@ analytics:
 author:
   name             : "George Dasoulas"
   avatar           : "personal.png"
-  bio              : |
+  bio              : | 
+                    ### Heading
+                    
                     * Machine Learning on Graphs.
                     * PhD Student @ École polytechnique.
                     * Doctoral Researcher @ Noah's Ark Lab, Huawei France.
