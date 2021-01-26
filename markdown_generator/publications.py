@@ -64,6 +64,9 @@ import os
 for row, item in publications.iterrows():
     
     print(item.pub_date)
+    print(item.title)
+    print(item.excerpt)
+    print(item.venue)
     print(item.url_slug)
 
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
