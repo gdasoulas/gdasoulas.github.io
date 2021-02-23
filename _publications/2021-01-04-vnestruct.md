@@ -1,15 +1,13 @@
 ---
-title: "Ego-based Entropy Measures for Structural Representations"
+title: "Ego-based Entropy Measures for Structural Representations on Graphs"
 collection: publications
-permalink: /publication/2020-03-01-vnestruct
+permalink: /publication/2021-01-04-vnestruct
+short_text: 'We investigate feature augmentation methods of graph neural networks using structural entropy measures.'
 excerpt: 'In complex networks, nodes that share similar structural characteristics often exhibit similar roles (e.g type of users in a social network or the hierarchical position of employees in a company). In order to leverage this relationship, a growing literature proposed latent representations that identify structurally equivalent nodes. However, most of the existing methods require high time and space complexity. In this paper, we propose VNEstruct, a simple approach for generating low-dimensional structural node embeddings, that is both time efficient and robust to perturbations of the graph structure. The proposed approach focuses on the local neighborhood of each node and employs the Von Neumann entropy, an information-theoretic tool, to extract features that capture the neighborhood&apos;s topology. Moreover, on graph classification tasks, we suggest the utilization of the generated structural embeddings for the transformation of an attributed graph structure into a set of augmented node attributes. Empirically, we observe that the proposed approach exhibits robustness on structural role identification tasks and state-of-the-art performance on graph classification tasks, while maintaining very high computational speed.'
-date: 2020-03-01
-venue: 'CoRR Repository'
+date: 2021-01-04
+venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
 author_list: '<b>George Dasoulas</b>, Giannis Nikolentzos, Kevin Scaman, Aladin Virmaux, Michalis Vazirgiannis'
 paperurl: 'https://arxiv.org/abs/2003.00553'
 citation: 'None'
 ---
-
-<a href='https://arxiv.org/abs/2003.00553'>Download paper here</a>
-
 In complex networks, nodes that share similar structural characteristics often exhibit similar roles (e.g type of users in a social network or the hierarchical position of employees in a company). In order to leverage this relationship, a growing literature proposed latent representations that identify structurally equivalent nodes. However, most of the existing methods require high time and space complexity. In this paper, we propose VNEstruct, a simple approach for generating low-dimensional structural node embeddings, that is both time efficient and robust to perturbations of the graph structure. The proposed approach focuses on the local neighborhood of each node and employs the Von Neumann entropy, an information-theoretic tool, to extract features that capture the neighborhood&apos;s topology. Moreover, on graph classification tasks, we suggest the utilization of the generated structural embeddings for the transformation of an attributed graph structure into a set of augmented node attributes. Empirically, we observe that the proposed approach exhibits robustness on structural role identification tasks and state-of-the-art performance on graph classification tasks, while maintaining very high computational speed.
