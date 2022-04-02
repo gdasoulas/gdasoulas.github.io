@@ -231,7 +231,8 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      font-weight: bold;
+      text-decoration: none;
     }
   }
 }

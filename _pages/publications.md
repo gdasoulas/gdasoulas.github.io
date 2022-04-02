@@ -9,19 +9,19 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 {% include base_path %}
 
-## <span style="color: #412FD2">Working Papers </span>
+## <span style="color: #3b5998">Working Papers </span>
 
 {% for post in site.publications reversed %}
   {% include paper-single-working.html %}
 {% endfor %}
 
-## <span style="color: #412FD2">Conference Proceedings</span>
+## <span style="color: #3b5998">Conference Proceedings</span>
 
 {% for post in site.publications reversed %}
   {% include paper-single-conf.html %}
 {% endfor %}
 
-## <span style="color: #412FD2">Journal Publications</span> 
+## <span style="color: #3b5998">Journal Publications</span> 
 
 {% for post in site.publications reversed %}
   {% include paper-single-journal.html %}
