@@ -8,7 +8,7 @@ date: 2021-02-02
 venue: 'TBA 2022'
 short_venue:    'TBA 2022'
 pub_type: 'working'
-author_list: 'Guillaume Salha-Galvan,Johannes Lutzeyer, <b>George Dasoulas</b>, Romain Hennequin, Michalis Vazirgiannis'
+author_list: 'Guillaume Salha-Galvan, Johannes Lutzeyer, <b>George Dasoulas</b>, Romain Hennequin, Michalis Vazirgiannis'
 paperurl: 'https://arxiv.org/pdf/2202.00961.pdf'
 citation: 'None'
 ---

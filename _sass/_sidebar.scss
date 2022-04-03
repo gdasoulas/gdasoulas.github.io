@@ -10,6 +10,7 @@
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
+  color:  $gray;          
   @include clearfix();
   margin-bottom: 1em;
 
@@ -123,7 +124,6 @@
 
 .author__bio {
   margin: 0;
-
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;

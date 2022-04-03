@@ -29,7 +29,7 @@
     {% if post.pub_type == 'journal' %}
       <li> 
       [{{post.short_venue}}]   <b>{{ title }}</b> <br>
-     <i> {{post.author_list}}</i>    
+     <i style="color:dimgrey"> {{post.author_list}}</i>    
       {% if post.collection == 'publications' %}      
         <p class="archive__item-excerpt" itemprop="description"><p>{{ post.short_text | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color:#A9A9A9; text-decoration:none" > Read more</a>
           {% if post.link %}
