@@ -19,7 +19,10 @@ Before that, I graduated from the department of Electrical and Computer Engineer
 
 
 ## Research Focus
-I am studying the expressive power of Message Passing Neural Networks or, as they usually called, Graph Neural Networks. Using the theoretical understanding of GNN architectures, my goal is to make impactful contributions in real-world problems that are characterized by an inherent graph structure. Such applications range from communication graphs to molecular networks.
+
+I am working on machine learning for structured data with a special focus on graphs and generally non-Euclidean structures. My research is concentrated mainly on building powerful <b>graph learning models</b>, that are able to extract knowledge in diverse real-world applications, ranging from communication networks to bioinformatics. During my research journey so far, I encountered challenging problems in the expressivity of Graph Neural Networks for molecular structure modeling, contributing to more accurate predictions in bioinformatics tasks. Also, I met the demanding needs of the telecommunications industry, where graph learning models have shown a crucial impact. 
+<!-- As an HDSI fellow, he is interested in leveraging the computational capabilities of graph learning models for accelerating biomedical research.
+I am studying the expressive power of Message Passing Neural Networks or, as they usually called, Graph Neural Networks. Using the theoretical understanding of GNN architectures, my goal is to make impactful contributions in real-world problems that are characterized by an inherent graph structure. Such applications range from communication graphs to molecular networks. -->
 
 
 <!-- Hi ! This is George (or Georgios or Giorgos).
