@@ -7,7 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a machine learning scientist, focusing on learning representations for graphs.
+I am an incoming postdoctoral researcher in Harvard University. I am very excited to work with the team of [Zitnik Lab](https://zitniklab.hms.harvard.edu/) at the [Department of Biomedical Informatics](https://dbmi.hms.harvard.edu/) of Harvard University. I am very fortunate to receive the 2022 Wojcicki and Troper Fellowship of [Harvard Data Science Initiative](https://datascience.harvard.edu/) for supporting my research in learning graph representations for biomedical applications.
+
+<!-- I am a machine learning scientist, focusing on learning representations for graphs. -->
 
 ## Academic Bio
 I received a Ph.D. in Computer Science from the [DaSciM](http://www.lix.polytechnique.fr/dascim/) group of LIX, École polytechnique in Paris, France. During my graduate studies, I worked as a doctoral researcher in [Noah's Ark Lab](https://www.noahlab.com.hk/#/home) at Huawei Technologies France. I was very fortunate to be advised by:
