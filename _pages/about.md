@@ -3,34 +3,19 @@ permalink: /
 # title: "Hello!"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-I am a postdoctoral researcher in Harvard University, working with the team of [Zitnik Lab](https://zitniklab.hms.harvard.edu/) at the [Department of Biomedical Informatics](https://dbmi.hms.harvard.edu/) of Harvard University. I am very fortunate to receive the 2022 Wojcicki and Troper Fellowship of [Harvard Data Science Initiative](https://datascience.harvard.edu/) for supporting my research in learning graph representations for biomedical applications.
 
-<!-- I am a machine learning scientist, focusing on learning representations for graphs. -->
+I am a Senior Machine Learning Research Scientist at Merck Research Laboratories in Cambridge, MA. My research focuses on developing advanced machine learning methods for drug discovery and development. Specifically, I work on single-cell foundation models for target discovery, geometric deep learning for gene regulatory network inference, and multimodal learning for spatial transcriptomics and H&E imaging.
 
-## Academic Bio
-I received a Ph.D. in Computer Science from the [DaSciM](http://www.lix.polytechnique.fr/dascim/) group of LIX, École polytechnique in Paris, France. During my graduate studies, I worked as a doctoral researcher in [Noah's Ark Lab](https://www.noahlab.com.hk/#/home) at Huawei Technologies France. I was very fortunate to be advised by:
-- Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/index.php) from DaSciM,
-- Dr. [Aladin Virmaux](https://www.linkedin.com/in/aladin-virmaux/) from Huawei Technologies France,
-- Dr. [Kevin Scaman](https://scaman.wordpress.com/) from Huawei Technologies France (currently at INRIA Paris).
+Previously, I was a Harvard Data Science Initiative Postdoctoral Research Fellow at Harvard University, appointed at the Blavatnik Institute, Department of Biomedical Informatics, Harvard Medical School. I was hosted by [Marinka Zitnik's Lab](https://zitniklab.hms.harvard.edu/) (DBMI) and Francesca Dominici's Lab (HDSI). My research focused on geometric deep learning for 3D biomolecular structure representation and design, multimodal foundation models for therapeutics, and equivariant message passing for spatiotemporal modeling.
 
-Before that, I graduated from the department of Electrical and Computer Engineering at National Technical University of Athens [(NTUA)](https://www.ece.ntua.gr/en). My diploma thesis focused on deep learning for time series forecasting for predictive route optimization. The goal of the thesis was the application of the predictive optimization on real-time fuel-price prediction and route planning of cargo vehicles.
+I received my Ph.D. in Computer Science from École Polytechnique (DaSciM group, LIX) in Paris, France. During my graduate studies, I worked as a doctoral researcher at [Noah's Ark Lab](https://www.noahlab.com.hk/#/home), Huawei Technologies France. I was advised by Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/index.php), Dr. [Aladin Virmaux](https://www.linkedin.com/in/aladin-virmaux/), and Dr. [Kevin Scaman](https://scaman.wordpress.com/).
 
+Before that, I graduated from the School of Electrical and Computer Engineering at the National Technical University of Athens ([NTUA](https://www.ece.ntua.gr/en)).
 
-## Research Focus
+## Research Interests
 
-I am working on machine learning for structured data with a special focus on graphs and generally non-Euclidean structures. My research is concentrated mainly on building powerful <b>graph learning models</b>, that are able to extract knowledge in diverse real-world applications, ranging from communication networks to bioinformatics. During my research journey so far, I encountered challenging problems in the expressivity of Graph Neural Networks for molecular structure modeling, contributing to more accurate predictions in bioinformatics tasks. Also, I met the demanding needs of the telecommunications industry, where graph learning models have shown a crucial impact. 
-<!-- As an HDSI fellow, he is interested in leveraging the computational capabilities of graph learning models for accelerating biomedical research.
-I am studying the expressive power of Message Passing Neural Networks or, as they usually called, Graph Neural Networks. Using the theoretical understanding of GNN architectures, my goal is to make impactful contributions in real-world problems that are characterized by an inherent graph structure. Such applications range from communication graphs to molecular networks. -->
-
-
-<!-- Hi ! This is George (or Georgios or Giorgos).
-I am a 3rd-year PhD candidate in Computer Science working at the [DaSciM](http://www.lix.polytechnique.fr/dascim/) group of LIX, École polytechnique in Paris under the supervision of Prof. <b>Michalis Vazirgiannis</b>. 
-On parallel, I work as a doctoral researcher in [Noah's Ark Lab](https://www.noahlab.com.hk/#/home), Huawei Technologies France. 
-
-Currently, I am working in the field of machine learning for structured data and, more specifically, in the graph representation learning. I am studying the expressive power of Message Passing Neural Networks or, as they usually called, Graph Neural Networks. Using the theoretical understanding of GNN architectures, my goal is to make impactful contributions in real-world problems that are characterized by an inherent graph structure. Such applications range from communication graphs to molecular networks.
-
-Before my arrival in Paris, I graduated from the department of Electrical and Computer Engineering at [National Technical University of Athens (NTUA)](https://www.ece.ntua.gr/en). My diploma thesis focused on deep learning for time series forecasting for predictive route optimization. The goal of the thesis was the application of the predictive optimization on real-time fuel-price prediction and route planning of cargo vehicles. -->
+Geometric Deep Learning, Foundation Models, Multimodal Learning, Knowledge Graphs, Graph Machine Learning, Generative Models, Evaluation and Benchmarking, AI for Science, AI for Biology.
