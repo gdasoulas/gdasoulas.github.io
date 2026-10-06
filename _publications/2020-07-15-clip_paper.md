@@ -1,4 +1,5 @@
 ---
+layout: publication-portfolio
 title: "Coloring Graph Neural Networks for Node Disambiguation"
 collection: publications
 permalink: /publication/2020-07-15-clip_paper

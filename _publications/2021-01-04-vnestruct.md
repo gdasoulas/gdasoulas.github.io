@@ -1,5 +1,7 @@
 ---
+layout: publication-portfolio
 title: "Ego-based Entropy Measures for Structural Representations on Graphs"
+duplicate: true
 collection: publications
 permalink: /publication/2021-01-04-vnestruct
 short_text: 'Moving beyond local interactions, nodes can share structural similarities, based on their position. We investigate feature augmentation methods of graph neural networks using structural entropy measures.'

@@ -1,0 +1,7 @@
+---
+layout: portfolio
+---
+<p class="section-intro">{{ page.venue }} · {{ page.date | date: '%Y' }}</p>
+<p class="authors">{{ page.author_list }}</p>
+<div class="paper-links">{% if page.paperurl %}<a href="{{ page.paperurl }}">Read paper ↗</a>{% endif %}{% if page.link %}<a href="{{ page.link }}">Publisher ↗</a>{% endif %}{% if page.code %}<a href="{{ page.code }}">Code ↗</a>{% endif %}<a href="{{ '/publications/' | relative_url }}">All publications →</a></div>
+<div class="publication-content">{{ content }}</div>
