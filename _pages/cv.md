@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: portfolio
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -13,7 +13,11 @@ Geometric Deep Learning, Foundation Models, Multimodal Learning, Knowledge Graph
 
 ## Professional Experience
 
-**March 2025 - Present**  
+**Current**<br>
+**Isomorphic Labs**, Switzerland<br>
+_Machine Learning Research Scientist_
+
+**Previous role · started March 2025**<br>
 **Merck & Co**, Cambridge, Massachusetts, USA  
 _Senior Machine Learning Research Scientist @ Merck Research Laboratories_
 
@@ -30,10 +34,10 @@ _Harvard Data Science Initiative Postdoctoral Research Fellow_
 - Research focus: a) Geometric deep learning for 3D biomolecular structure representation and design. b) Multimodal Foundation Models for therapeutics. c) Equivariant message passing for spatiotemporal modeling.
 
 **October 2018 - April 2022**  
-**Huawei Technologies**, Paris, France  
-_Doctoral research scientist in graph machine learning_
+**Huawei Paris Research Centre**, Paris, France<br>
+_Doctoral Researcher in Machine Learning_
 
-- Laboratory: Noah's Ark Lab, AI department of Huawei R&D.
+- Laboratory: Mathematical and Algorithmic Sciences Lab.
 - Research focus: Representation learning algorithms for static and dynamic networks, specialized in telecommunications.
 
 **June 2017 - January 2018**  
@@ -116,4 +120,4 @@ Please refer to the [Publications](/publications/) page for the full list of pub
 - **General GRE**: Quantitative Score: 167/170, Verbal Score: 157/170, Essay: 4/6.
 - **TOEFL iBT**: 100/120.
 
-[Download PDF Version]({{ site.baseurl }}/files/CV_George_Dasoulas_09_2025.pdf)
+[Download archived CV (September 2025)]({{ site.baseurl }}/files/CV_George_Dasoulas_09_2025.pdf)

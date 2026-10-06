@@ -1,21 +1,34 @@
 ---
+layout: portfolio
 permalink: /
-# title: "Hello!"
-excerpt: "About me"
-author_profile: true
+portfolio_home: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-I am a Senior Machine Learning Research Scientist at Merck Research Laboratories in Cambridge, MA. My research focuses on developing advanced machine learning methods for drug discovery and development. Specifically, I work on single-cell foundation models for target discovery, geometric deep learning for gene regulatory network inference, and multimodal learning for spatial transcriptomics and H&E imaging.
-
-Previously, I was a Harvard Data Science Initiative Postdoctoral Research Fellow at Harvard University, appointed at the Blavatnik Institute, Department of Biomedical Informatics, Harvard Medical School. I was hosted by [Marinka Zitnik's Lab](https://zitniklab.hms.harvard.edu/) (DBMI) and Francesca Dominici's Lab (HDSI). My research focused on geometric deep learning for 3D biomolecular structure representation and design, multimodal foundation models for therapeutics, and equivariant message passing for spatiotemporal modeling.
-
-I received my Ph.D. in Computer Science from École Polytechnique (DaSciM group, LIX) in Paris, France. During my graduate studies, I worked as a doctoral researcher at [Noah's Ark Lab](https://www.noahlab.com.hk/#/home), Huawei Technologies France. I was advised by Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/index.php), Dr. [Aladin Virmaux](https://www.linkedin.com/in/aladin-virmaux/), and Dr. [Kevin Scaman](https://scaman.wordpress.com/).
-
-Before that, I graduated from the School of Electrical and Computer Engineering at the National Technical University of Athens ([NTUA](https://www.ece.ntua.gr/en)).
-
-## Research Interests
-
-Geometric Deep Learning, Foundation Models, Multimodal Learning, Knowledge Graphs, Graph Machine Learning, Generative Models, Evaluation and Benchmarking, AI for Science, AI for Biology.
+<section class="hero" aria-labelledby="intro-title">
+<div><p class="eyebrow">AI for science</p><h1 id="intro-title">George Dasoulas</h1><p class="role">Machine Learning Research Scientist<br><a href="https://www.isomorphiclabs.com/">Isomorphic Labs</a> <span class="location">/ Switzerland</span></p><p class="hero-note">Developing machine learning methods <br>for scientific discovery.</p><div class="social-links"><a href="https://scholar.google.com/citations?user=WPFAXNAAAAAJ">Google Scholar ↗</a><a href="https://github.com/gdasoulas">GitHub ↗</a><a href="https://www.linkedin.com/in/george-dasoulas-23369786">LinkedIn ↗</a><a href="{{ '/cv/' | relative_url }}">CV ↗</a></div></div>
+<figure class="portrait"><img src="{{ '/images/personal.png' | relative_url }}" alt="George Dasoulas" width="264" height="292"><figcaption>AI for science. From structure to discovery.</figcaption></figure>
+</section>
+<section id="about" class="section"><div class="section-heading"><span class="section-number">01</span><h2>About</h2></div><div class="prose"><p>I am a Machine Learning Research Scientist at <a href="https://www.isomorphiclabs.com/">Isomorphic Labs</a> in Switzerland. My research spans geometric deep learning, multimodal learning, and foundation models for biology and drug discovery.</p><p>Previously, I was a Senior Machine Learning Research Scientist at Merck Research Laboratories, working on single-cell foundation models for target discovery, gene regulatory network inference, and multimodal learning for spatial transcriptomics and H&amp;E imaging.</p><p>Before Merck, I was a Harvard Data Science Initiative Postdoctoral Research Fellow at Harvard University, appointed at Harvard Medical School and hosted by <a href="https://zitniklab.hms.harvard.edu/">Marinka Zitnik’s Lab</a> and Francesca Dominici’s Lab. During my Ph.D., I was a Doctoral Researcher in Machine Learning at the Mathematical and Algorithmic Sciences Lab, Huawei Paris Research Centre. I received my Ph.D. in Computer Science from École Polytechnique, working with Michalis Vazirgiannis, Aladin Virmaux, and Kevin Scaman.</p></div></section>
+<section id="research" class="section"><div class="section-heading"><span class="section-number">02</span><h2>Research</h2></div><p class="section-intro">Learning from the structure and complexity of biological systems.</p><div class="research-grid"><article><span class="research-index">I.</span><h3>Geometric deep learning</h3><p>Graph representations, expressive neural networks, and equivariant methods for structured data and biomolecular systems.</p></article><article><span class="research-index">II.</span><h3>Foundation models for biology</h3><p>Representation learning for single cells and proteins, connecting biological data with therapeutic discovery.</p></article><article><span class="research-index">III.</span><h3>Multimodal learning</h3><p>Combining complementary signals across molecular, spatial, and imaging modalities to understand biological function.</p></article></div></section>
+<section id="publications" class="section"><div class="section-heading"><span class="section-number">03</span><h2>Selected publications</h2><a class="section-link" href="{{ '/publications/' | relative_url }}">All publications ↗</a></div><p class="section-intro">Recent work across biological foundation models and geometric learning.</p>
+{% assign papers = site.publications | sort: 'date' | reverse %}
+{% for post in papers %}{% if post.url contains 'sigmoid' or post.url contains 'strand' or post.url contains 'topological' or post.url contains 'procyon' or post.url contains '2023-01-01-multimodal' %}{% include portfolio-paper.html %}{% endif %}{% endfor %}
+<a class="text-link" href="https://scholar.google.com/citations?user=WPFAXNAAAAAJ">View my Google Scholar profile ↗</a></section>
+<section id="experience" class="section"><div class="section-heading"><span class="section-number">04</span><h2>Experience &amp; education</h2><a class="section-link" href="{{ '/cv/' | relative_url }}">Full CV ↗</a></div><div class="timeline">
+<div class="timeline-item"><span class="timeline-date">Current</span><span class="timeline-logo"><img src="{{ '/images/institutions/isomorphic-light.png' | relative_url }}" alt="" loading="lazy" width="48" height="48"></span><div class="timeline-copy"><h3>Isomorphic Labs</h3><p>Machine Learning Research Scientist · Switzerland</p></div></div>
+<div class="timeline-item"><span class="timeline-date">Previously</span><span class="timeline-logo"><img src="{{ '/images/institutions/merck-mark.svg' | relative_url }}" alt="" loading="lazy" width="48" height="48"></span><div class="timeline-copy"><h3>Merck Research Laboratories</h3><p>Senior Machine Learning Research Scientist · Cambridge, MA</p></div></div>
+<div class="timeline-item"><span class="timeline-date">2022–2025</span><span class="timeline-logo"><img src="{{ '/images/institutions/harvard.png' | relative_url }}" alt="" loading="lazy" width="48" height="48"></span><div class="timeline-copy"><h3>Harvard University</h3><p>HDSI Postdoctoral Research Fellow · Harvard Medical School</p></div></div>
+<div class="timeline-item"><span class="timeline-date">2018–2022</span><span class="timeline-logo"><img src="{{ '/images/huawei-logo.jpeg' | relative_url }}" alt="" loading="lazy" width="48" height="48"></span><div class="timeline-copy"><h3>Huawei Paris Research Centre</h3><p>Doctoral Researcher in Machine Learning · Mathematical and Algorithmic Sciences Lab</p></div></div>
+<div class="timeline-item"><span class="timeline-date">2019–2022</span><span class="timeline-logo"><img src="{{ '/images/polytechnique.png' | relative_url }}" alt="" loading="lazy" width="48" height="48"></span><div class="timeline-copy"><h3>École Polytechnique</h3><p>Ph.D. in Computer Science · DaSciM, LIX</p></div></div>
+<div class="timeline-item"><span class="timeline-date">2012–2018</span><span class="timeline-logo"><img src="{{ '/images/institutions/ntua-white.png' | relative_url }}" alt="" loading="lazy" width="48" height="48"></span><div class="timeline-copy"><h3>National Technical University of Athens</h3><p>B.Sc. &amp; M.Sc. in Electrical and Computer Engineering</p></div></div>
+</div></section>
+<section id="news" class="section"><div class="section-heading"><span class="section-number">05</span><h2>News &amp; milestones</h2></div><div class="news-list">
+<article><span>Late September 2026 · Paper</span><p><a href="{{ '/publication/2026-02-01-strand' | relative_url }}">STRAND: Sequence-Conditioned Transport for Single-Cell Perturbations</a> accepted to NeurIPS 2026.</p></article>
+<article><span>August 2026 · Paper</span><p><a href="{{ '/publication/2026-04-01-sigmoid' | relative_url }}">Better Models, Faster Training: Sigmoid Attention for single-cell Foundation Models</a> accepted to Transactions on Machine Learning Research; camera-ready version verified.</p></article>
+<article><span>Career</span><p>Joined Isomorphic Labs as a Machine Learning Research Scientist in Switzerland. <a href="https://www.linkedin.com/posts/george-dasoulas-23369786_machinelearning-drugdiscovery-aiforscience-activity-7459978906511675392-SpeV">Announcement ↗</a></p></article>
+<article><span>2025 · Research</span><p>TEDDY: A Family Of Foundation Models For Understanding Single Cell Biology — ICML GenBio Workshop.</p></article>
+<article><span>2025 · Research</span><p>E(n) Equivariant Topological Neural Networks — ICLR.</p></article>
+<article><span>2023 · Fellowship</span><p>Wojcicki Troper postdoctoral fellowship, Harvard Data Science Initiative.</p></article>
+</div></section>

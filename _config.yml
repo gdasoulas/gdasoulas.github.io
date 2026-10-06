@@ -10,10 +10,10 @@ locale: "en-US"
 title: "George Dasoulas"
 title_separator: "-"
 name: &name "George Dasoulas"
-description: &description "personal description"
+description: &description "George Dasoulas — Machine Learning Research Scientist at Isomorphic Labs. Geometric deep learning, foundation models, and AI for biology."
 url: https://gdasoulas.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "academicpages/academicpages.github.io"
+repository: "gdasoulas/gdasoulas.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
@@ -84,8 +84,8 @@ author:
   #                   Machine Learning on Graphs.
   #                   PhD Student @ École polytechnique.
   #                   Doctoral Researcher @ Noah's Ark Lab, Huawei France.
-  bio: "Senior Machine Learning Research Scientist @ Merck Research Laboratories <br> PhD from École Polytechnique"
-  location: "Cambridge, MA, USA"
+  bio: "Machine Learning Research Scientist @ Isomorphic Labs <br> PhD from École Polytechnique"
+  location: "Switzerland"
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=WPFAXNAAAAAJ"

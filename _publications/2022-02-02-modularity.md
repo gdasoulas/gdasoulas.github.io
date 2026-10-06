@@ -1,4 +1,5 @@
 ---
+layout: publication-portfolio
 title: "Modularity-Aware Graph Autoencoders for Joint Community Detection and Link Prediction"
 collection: publications
 permalink: /publication/2021-02-02-modularity

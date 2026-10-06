@@ -1,4 +1,5 @@
 ---
+layout: publication-portfolio
 title: "Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks"
 collection: publications
 permalink: /publication/2021-05-08-lipschitznorm
